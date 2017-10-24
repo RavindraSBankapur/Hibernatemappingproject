@@ -14,5 +14,6 @@ public class CustomerDao {
 		Query q1=session.createSQLQuery("select *from customers");
 		List li=q.list();
 		System.out.println(li);
+		//changed the code again and pussh
 	}
 }
